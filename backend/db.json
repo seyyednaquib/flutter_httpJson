@@ -1,0 +1,99 @@
+{ 
+    "Exam":[
+        {
+            "id" : 1,
+            "title" : "Exam MAP",
+            "examinerid" :1
+        },
+        {
+            "id" : 2,
+            "title" : "Exam Web Technology",
+            "examinerid" :2
+        }
+    ],
+    "questions":[
+        {
+            "id" : 1,
+            "examId" : 1,
+            "content" :"Qustion 1 Content"
+        },
+        {
+            "id" : 2,
+            "examId" : 1,
+            "content" :"Qustion 2 Content"
+        },
+        {
+            "id" : 3,
+            "examId" : 1,
+            "content" :"Qustion 3 Content"
+        },
+        {
+            "id" : 4,
+            "examId" : 2,
+            "content" :"Qustion 4 Content"
+        },
+        {
+            "id" : 5,
+            "examId" : 2,
+            "content" :"Qustion 5 Content"
+        },
+        {
+            "id" : 6,
+            "examId" : 2,
+            "content" :"Qustion 6 Content"
+        }
+    ],
+    "users": [
+        {
+          "id": 1,
+          "shortName": "Abdullah",
+          "fullName": "Abdullah Tajuddin",
+          "family": [{
+              "name": "Abdullah Family 1",
+              "contactNo": "01117242421"
+          },
+          {
+            "name": " Abdullah Family 2",
+            "contactNo": "01117242421"
+          },
+          {
+            "name": " Abdullah Family 3",
+            "contactNo": "01117242421"
+          }
+        ]
+        },
+        {
+          "id": 2,
+          "shortName": "Aisyah",
+          "fullName": "Siti Nur Aisyah Binti Ahmad Kamal",
+          "family": [{
+            "name": "Aisyah Family 1",
+            "contactNo": "01117242421"
+        },
+        {
+          "name": " Aisyah Family 2",
+          "contactNo": "01117242421"
+        },
+        {
+          "name": " Aisyah Family 3",
+          "contactNo": "01117242421"
+        }
+      ]
+        },
+        {
+          "id": 3,
+          "shortName": "Jailani",
+          "fullName": "Ahmad Jailani Bin Saad"
+        },
+        {
+          "id": 4,
+          "shortName": "Amalina",
+          "fullName": "Amalina Dasuki"
+        },
+        {
+          "shortName": "Naquib",
+          "fullName": "Al Faruqi",
+          "id": 5
+        }
+   ]
+}
